@@ -1,3 +1,5 @@
 FROM openjdk:11-jre-slim
 
-COPY fatApp.jar f
+COPY fatApp.jar fatApp.jar
+
+CMD ["java","-jar
