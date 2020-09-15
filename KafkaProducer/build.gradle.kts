@@ -6,4 +6,8 @@ plugins {
 }
 
 application{
-    mainClass.set("Ma
+    mainClass.set("MainKt")
+}
+
+repositories {
+  
