@@ -5,4 +5,5 @@ plugins {
     application
 }
 
-applicatio
+application{
+    mainClass.set("Ma
