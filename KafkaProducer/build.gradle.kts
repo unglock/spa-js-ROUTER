@@ -10,4 +10,7 @@ application{
 }
 
 repositories {
-  
+    mavenCentral()
+}
+
+dependencie
