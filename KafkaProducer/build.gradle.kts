@@ -13,4 +13,5 @@ repositories {
     mavenCentral()
 }
 
-dependencie
+dependencies {
+    implementation(kotlin
