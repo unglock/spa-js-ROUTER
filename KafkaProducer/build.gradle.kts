@@ -15,4 +15,4 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib"))
-    implementatio
+    implementation("org.apache.kafka:kaf
