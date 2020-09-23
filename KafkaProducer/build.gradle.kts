@@ -17,4 +17,4 @@ dependencies {
     implementation(kotlin("stdlib"))
     implementation("org.apache.kafka:kafka-streams:2.8.0")
     implementation("com.beust:klaxon:5.5")
-    implementa
+    implementation("org.jetbrains.kotlin:kotli
