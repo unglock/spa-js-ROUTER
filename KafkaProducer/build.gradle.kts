@@ -15,4 +15,5 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib"))
-    implementation("org.apache.kafka:kaf
+    implementation("org.apache.kafka:kafka-streams:2.8.0")
+    impleme
