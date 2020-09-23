@@ -16,4 +16,5 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib"))
     implementation("org.apache.kafka:kafka-streams:2.8.0")
-    impleme
+    implementation("com.beust:klaxon:5.5")
+    implementa
