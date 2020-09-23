@@ -14,4 +14,5 @@ repositories {
 }
 
 dependencies {
-    implementation(kotlin
+    implementation(kotlin("stdlib"))
+    implementatio
