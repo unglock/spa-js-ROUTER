@@ -18,4 +18,5 @@ dependencies {
     implementation("org.apache.kafka:kafka-streams:2.8.0")
     implementation("com.beust:klaxon:5.5")
     implementation("org.jetbrains.kotlin:kotlin-reflect:1.4.10")
-    implementation("org.apache.loggin
+    implementation("org.apache.logging.log4j:log4j-api-kotlin:1.0.0")
+   
