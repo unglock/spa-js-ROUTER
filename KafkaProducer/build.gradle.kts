@@ -21,4 +21,7 @@ dependencies {
     implementation("org.apache.logging.log4j:log4j-api-kotlin:1.0.0")
     implementation("org.apache.logging.log4j:log4j-core:2.12.0")
     implementation("org.apache.logging.log4j:log4j-slf4j-impl:2.12.0")
-    implementation("io.ktor:ktor-server-netty:1
+    implementation("io.ktor:ktor-server-netty:1.2.2")
+}
+
+val fatJar = task("fatJar", type = 
