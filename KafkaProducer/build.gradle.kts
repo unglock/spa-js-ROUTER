@@ -24,4 +24,5 @@ dependencies {
     implementation("io.ktor:ktor-server-netty:1.2.2")
 }
 
-val fatJar = task("fatJar", type = 
+val fatJar = task("fatJar", type = Jar::class) {
+    baseName
