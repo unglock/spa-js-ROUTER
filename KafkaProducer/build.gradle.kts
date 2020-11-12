@@ -25,4 +25,5 @@ dependencies {
 }
 
 val fatJar = task("fatJar", type = Jar::class) {
-    baseName
+    baseName = "fatApp"
+    manifest {
