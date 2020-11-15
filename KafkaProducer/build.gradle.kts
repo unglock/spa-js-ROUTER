@@ -27,4 +27,5 @@ dependencies {
 val fatJar = task("fatJar", type = Jar::class) {
     baseName = "fatApp"
     manifest {
-        attributes["M
+        attributes["Main-Class"] = application.mainClass
+ 
