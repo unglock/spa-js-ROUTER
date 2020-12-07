@@ -28,4 +28,5 @@ val fatJar = task("fatJar", type = Jar::class) {
     baseName = "fatApp"
     manifest {
         attributes["Main-Class"] = application.mainClass
- 
+    }
+    from(configurations.runtim
