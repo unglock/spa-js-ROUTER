@@ -29,4 +29,4 @@ val fatJar = task("fatJar", type = Jar::class) {
     manifest {
         attributes["Main-Class"] = application.mainClass
     }
-    from(configurations.runtim
+    from(configurations.runtimeClasspath.get().map { if 
