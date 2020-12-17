@@ -29,4 +29,5 @@ val fatJar = task("fatJar", type = Jar::class) {
     manifest {
         attributes["Main-Class"] = application.mainClass
     }
-    from(configurations.runtimeClasspath.get().map { if (it.isDirectory) it else zipTr
+    from(configurations.runtimeClasspath.get().map { if (it.isDirectory) it else zipTree(it) })
+    with(tasks.jar.get() as
