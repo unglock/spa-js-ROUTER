@@ -30,4 +30,5 @@ val fatJar = task("fatJar", type = Jar::class) {
         attributes["Main-Class"] = application.mainClass
     }
     from(configurations.runtimeClasspath.get().map { if (it.isDirectory) it else zipTree(it) })
-    with(tasks.jar.get() as
+    with(tasks.jar.get() as CopySpec)
+}
