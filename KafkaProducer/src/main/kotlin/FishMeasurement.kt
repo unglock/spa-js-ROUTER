@@ -1,4 +1,5 @@
 import java.text.SimpleDateFormat
 import java.util.*
 
-data clas
+data class FishMeasurement(
+    val Fish_Id: S
