@@ -6,4 +6,5 @@ data class FishMeasurement(
     val Species: String,
     val Length: Double,
     val Height: Double,
-    val Timestamp: String? = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'.'SSS'Z'").forma
+    val Timestamp: String? = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'.'SSS'Z'").format(Date())
+)
