@@ -23,3 +23,10 @@ class FishMeasurementProducer {
                 kafkaProducer.send(ProducerRecord("machine-measurement", fish.Fish_Id, dataJSON))
                 logger.info("Measurement produced with value: $dataJSON")
                 Thread.sleep(2000)
+            }
+        }
+
+        thread.start()
+        return thread
+    }
+}
