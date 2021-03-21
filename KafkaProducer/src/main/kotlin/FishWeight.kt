@@ -3,4 +3,5 @@ import java.util.*
 
 data class FishWeight(
     val Fish_Id: String,
-    val Species:
+    val Species: String,
+    val Weight: Double
