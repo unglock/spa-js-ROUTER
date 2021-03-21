@@ -5,4 +5,4 @@ data class FishWeight(
     val Fish_Id: String,
     val Species: String,
     val Weight: Double,
-    val Timestamp: String
+    val Timestamp: String? = SimpleDateFormat("yyyy-
