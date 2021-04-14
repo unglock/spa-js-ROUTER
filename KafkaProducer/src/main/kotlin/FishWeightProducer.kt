@@ -7,4 +7,4 @@ class FishWeightProducer {
 
     private val logger = logger(javaClass.name)
 
-    f
+    fun produceEvents(properties: Prod
