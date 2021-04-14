@@ -5,4 +5,6 @@ import org.apache.logging.log4j.kotlin.logger
 
 class FishWeightProducer {
 
-    private val logger 
+    private val logger = logger(javaClass.name)
+
+    f
