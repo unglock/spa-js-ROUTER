@@ -8,3 +8,5 @@ class FishWeightProducer {
     private val logger = logger(javaClass.name)
 
     fun produceEvents(properties: ProducerProperties, data: List<String>): Thread {
+
+        val thread = Thread {
