@@ -11,4 +11,4 @@ class FishWeightProducer {
 
         val thread = Thread {
             val klaxon = Klaxon()
-            val kafka
+            val kafkaProducer = KafkaProducer<S
