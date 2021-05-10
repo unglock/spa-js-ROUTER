@@ -10,4 +10,5 @@ class FishWeightProducer {
     fun produceEvents(properties: ProducerProperties, data: List<String>): Thread {
 
         val thread = Thread {
-            val klaxon = K
+            val klaxon = Klaxon()
+            val kafka
