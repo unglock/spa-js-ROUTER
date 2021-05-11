@@ -14,4 +14,4 @@ class FishWeightProducer {
             val kafkaProducer = KafkaProducer<String, String>(properties.configureProperties())
 
             Thread.sleep(10000)
- 
+            logger.info("Weight
