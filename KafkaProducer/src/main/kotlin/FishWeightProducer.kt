@@ -18,4 +18,5 @@ class FishWeightProducer {
 
             data.forEach { event ->
 
-                val fish = klaxon.parse<Fis
+                val fish = klaxon.parse<FishWeight>(event)!!
+           
