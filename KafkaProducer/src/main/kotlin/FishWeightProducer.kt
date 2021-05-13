@@ -16,4 +16,6 @@ class FishWeightProducer {
             Thread.sleep(10000)
             logger.info("Weight Producer started")
 
-            data.fo
+            data.forEach { event ->
+
+                va
