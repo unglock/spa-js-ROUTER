@@ -18,4 +18,4 @@ class FishWeightProducer {
 
             data.forEach { event ->
 
-                va
+                val fish = klaxon.parse<Fis
