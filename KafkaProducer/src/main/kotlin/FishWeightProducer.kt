@@ -23,4 +23,7 @@ class FishWeightProducer {
 
                 kafkaProducer.send(ProducerRecord("machine-weight", fish.Fish_Id, dataJSON))
                 logger.info("Weight produced with value: $dataJSON")
-                Thread.sleep
+                Thread.sleep(2000)
+            }
+        }
+
