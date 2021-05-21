@@ -27,3 +27,5 @@ class FishWeightProducer {
             }
         }
 
+        thread.start()
+      
