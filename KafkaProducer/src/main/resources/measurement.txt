@@ -1,0 +1,5 @@
+
+{"Species": "salmon", "Fish_Id": "1", "Length":  86.370, "Height": 18.740}
+{"Species": "salmon", "Fish_Id": "2", "Length":  90.762, "Height": 17.589}
+{"Species": "salmon", "Fish_Id": "3", "Length":  84.625, "Height": 18.359}
+{"Species": "salmon", "Fish_Id": "4", "Length":  89.072, "Height": 19.112}
