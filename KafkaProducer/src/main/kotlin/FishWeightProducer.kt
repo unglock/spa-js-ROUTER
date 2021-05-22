@@ -28,4 +28,6 @@ class FishWeightProducer {
         }
 
         thread.start()
-      
+        return thread
+    }
+}
