@@ -1,0 +1,7 @@
+
+{"Species": "salmon", "Fish_Id": "1", "Weight": 4.43990}
+{"Species": "salmon", "Fish_Id": "2", "Weight": 4.63699}
+{"Species": "salmon", "Fish_Id": "3", "Weight": 4.21284}
+{"Species": "salmon", "Fish_Id": "4", "Weight": 4.59172}
+{"Species": "salmon", "Fish_Id": "5", "Weight": 4.71493}
+{"Species": "salmon", "Fish_Id": "6", "Weight": 4.81037}
