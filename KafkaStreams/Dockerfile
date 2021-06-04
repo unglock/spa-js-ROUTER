@@ -1,1 +1,3 @@
-FROM openjdk:11-jre-
+FROM openjdk:11-jre-slim
+
+COPY fatApp.jar fatA
