@@ -34,3 +34,17 @@ dependencies {
 
 val fatJar = task("fatJar", type = Jar::class) {
     baseName = "fatApp"
+    manifest {
+        attributes["Main-Class"] = application.mainClass
+    }
+    from(configurations.runtimeClasspath.get().map { if (it.isDirectory) it else zipTree(it) })
+    with(tasks.jar.get() as CopySpec)
+}
+
+tasks.withType<Test> {
+    useJUnitPlatform()
+}
+
+tasks.withType<KotlinCompile> {
+    kotlinOptions.jvmTarget = "11"
+}
