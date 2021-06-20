@@ -5,3 +5,10 @@ data class Fish(
     val Length: Double,
     val Height: Double,
     val Timestamp: String,
+    var Prediction: Prediction? = null
+)
+
+data class Prediction(
+    val Weight: Double,
+    val ModelTime: String
+)
