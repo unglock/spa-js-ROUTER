@@ -17,3 +17,17 @@ class FishSerde : Serializer<Fish>, Deserializer<Fish>, Serde<Fish> {
             null
         }
     }
+
+    override fun serialize(topic: String, data: Fish): ByteArray {
+        return Klaxon().toJsonString(data).toByteArray()
+    }
+
+    override fun close() {
+    }
+
+    override fun configure(configs: MutableMap<String, *>?, isKey: Boolean) {
+    }
+
+    override fun serializer(): Serializer<Fish> = this
+    override fun deserializer(): Deserializer<Fish> = this
+}
