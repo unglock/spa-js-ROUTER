@@ -6,4 +6,6 @@ import io.ktor.client.statement.*
 import io.ktor.http.*
 import kotlinx.coroutines.runBlocking
 import org.apache.logging.log4j.kotlin.logger
-import ja
+import java.util.*
+
+class Predictor(privat
