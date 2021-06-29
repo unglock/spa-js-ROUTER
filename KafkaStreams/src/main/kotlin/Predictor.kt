@@ -8,4 +8,6 @@ import kotlinx.coroutines.runBlocking
 import org.apache.logging.log4j.kotlin.logger
 import java.util.*
 
-class Predictor(private val properties: Properties)
+class Predictor(private val properties: Properties) {
+
+    private val logge
