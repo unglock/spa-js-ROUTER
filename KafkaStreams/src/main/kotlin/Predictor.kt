@@ -10,4 +10,6 @@ import java.util.*
 
 class Predictor(private val properties: Properties) {
 
-    private val logge
+    private val logger = logger(javaClass.name)
+
+    fu
