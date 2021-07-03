@@ -12,4 +12,4 @@ class Predictor(private val properties: Properties) {
 
     private val logger = logger(javaClass.name)
 
-    fu
+    fun requestWeight(fish: Fish): 
