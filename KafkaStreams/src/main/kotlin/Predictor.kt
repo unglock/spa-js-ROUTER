@@ -14,4 +14,6 @@ class Predictor(private val properties: Properties) {
 
     fun requestWeight(fish: Fish): Fish {
 
-        val url: String = properties.getPropert
+        val url: String = properties.getProperty("MODEL_URL")
+
+        val response
