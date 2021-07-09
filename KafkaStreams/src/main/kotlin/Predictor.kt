@@ -16,4 +16,5 @@ class Predictor(private val properties: Properties) {
 
         val url: String = properties.getProperty("MODEL_URL")
 
-        val response: Any? = request(fish, Url(url)
+        val response: Any? = request(fish, Url(url))
+        val prediction = Kl
