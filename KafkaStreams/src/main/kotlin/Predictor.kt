@@ -19,4 +19,5 @@ class Predictor(private val properties: Properties) {
         val response: Any? = request(fish, Url(url))
         val prediction = Klaxon().parse<Prediction>(response.toString())
 
-        if (p
+        if (prediction != null) {
+            lo
