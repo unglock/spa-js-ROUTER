@@ -20,4 +20,4 @@ class Predictor(private val properties: Properties) {
         val prediction = Klaxon().parse<Prediction>(response.toString())
 
         if (prediction != null) {
-            logger.info("Prediction: ${p
+            logger.info("Prediction: ${prediction.Weight} successful wi
