@@ -21,4 +21,4 @@ class Predictor(private val properties: Properties) {
 
         if (prediction != null) {
             logger.info("Prediction: ${prediction.Weight} successful with model: ${prediction.ModelTime} and parameters length: ${fish.Length}, height: ${fish.Height} and species: ${fish.Species}")
-   
+            fish.Prediction = prediction
