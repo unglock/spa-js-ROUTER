@@ -23,4 +23,8 @@ class Predictor(private val properties: Properties) {
             logger.info("Prediction: ${prediction.Weight} successful with model: ${prediction.ModelTime} and parameters length: ${fish.Length}, height: ${fish.Height} and species: ${fish.Species}")
             fish.Prediction = prediction
         }
-        return 
+        return fish
+    }
+
+
+    private fun request
