@@ -27,4 +27,6 @@ class Predictor(private val properties: Properties) {
     }
 
 
-    private fun request(fish: Fish, url: Url):
+    private fun request(fish: Fish, url: Url): Any? =
+
+        runBlocking {
