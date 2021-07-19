@@ -27,4 +27,4 @@ class Predictor(private val properties: Properties) {
     }
 
 
-    private fun request
+    private fun request(fish: Fish, url: Url):
