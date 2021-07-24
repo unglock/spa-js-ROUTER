@@ -31,4 +31,7 @@ class Predictor(private val properties: Properties) {
 
         runBlocking {
 
-            val client = HttpClient(CIO
+            val client = HttpClient(CIO)
+
+            try {
+    
