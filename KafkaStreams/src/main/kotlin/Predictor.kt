@@ -35,4 +35,4 @@ class Predictor(private val properties: Properties) {
 
             try {
                 val response: HttpResponse = client.request(url) {
-   
+                    method = Http
