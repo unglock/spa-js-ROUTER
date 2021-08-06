@@ -37,4 +37,5 @@ class Predictor(private val properties: Properties) {
                 val response: HttpResponse = client.request(url) {
                     method = HttpMethod.Get
                     parameter("length", fish.Length)
-                    parameter("height", fish.
+                    parameter("height", fish.Height)
+                    param
