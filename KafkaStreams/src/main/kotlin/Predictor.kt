@@ -38,4 +38,6 @@ class Predictor(private val properties: Properties) {
                     method = HttpMethod.Get
                     parameter("length", fish.Length)
                     parameter("height", fish.Height)
-                    parameter("species", fish.Species
+                    parameter("species", fish.Species)
+                }
+        
