@@ -40,4 +40,5 @@ class Predictor(private val properties: Properties) {
                     parameter("height", fish.Height)
                     parameter("species", fish.Species)
                 }
-        
+                client.close()
+       
