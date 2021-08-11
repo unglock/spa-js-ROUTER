@@ -41,4 +41,4 @@ class Predictor(private val properties: Properties) {
                     parameter("species", fish.Species)
                 }
                 client.close()
-       
+                return@runBlocking response.readText(
