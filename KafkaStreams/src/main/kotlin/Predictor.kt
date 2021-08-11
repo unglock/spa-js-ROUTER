@@ -43,4 +43,5 @@ class Predictor(private val properties: Properties) {
                 client.close()
                 return@runBlocking response.readText()
 
-            } catch (e: 
+            } catch (e: Exception) {
+        
