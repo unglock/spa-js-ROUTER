@@ -45,4 +45,4 @@ class Predictor(private val properties: Properties) {
 
             } catch (e: Exception) {
                 logger.error("Could not receive a weight for payload: $fish to url: $url")
-                return
+                return@runBlocking null
