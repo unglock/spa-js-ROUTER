@@ -7,4 +7,4 @@ import org.apache.kafka.streams.kstream.Produced
 
 class StreamProcessor(properties: StreamProperties, private val predictor: Predictor) {
 
-    val stream
+    val streams = KafkaStreams(createTopolo
