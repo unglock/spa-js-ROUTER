@@ -5,4 +5,6 @@ import org.apache.kafka.streams.Topology
 import org.apache.kafka.streams.kstream.Consumed
 import org.apache.kafka.streams.kstream.Produced
 
-class StreamProcessor(properties: StreamProperties, private val pred
+class StreamProcessor(properties: StreamProperties, private val predictor: Predictor) {
+
+    val stream
