@@ -9,4 +9,6 @@ class StreamProcessor(properties: StreamProperties, private val predictor: Predi
 
     val streams = KafkaStreams(createTopology(), properties.configureProperties())
 
-    fun createTopology()
+    fun createTopology(): Topology {
+
+   
