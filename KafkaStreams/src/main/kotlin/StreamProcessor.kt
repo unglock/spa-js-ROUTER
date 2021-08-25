@@ -7,4 +7,6 @@ import org.apache.kafka.streams.kstream.Produced
 
 class StreamProcessor(properties: StreamProperties, private val predictor: Predictor) {
 
-    val streams = KafkaStreams(createTopology(), properties.configurePropert
+    val streams = KafkaStreams(createTopology(), properties.configureProperties())
+
+    fun createTopology()
