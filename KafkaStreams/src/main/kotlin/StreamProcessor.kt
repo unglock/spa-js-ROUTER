@@ -11,4 +11,7 @@ class StreamProcessor(properties: StreamProperties, private val predictor: Predi
 
     fun createTopology(): Topology {
 
-        val processor = 
+        val processor = StreamsBuilder()
+
+        processor
+    
