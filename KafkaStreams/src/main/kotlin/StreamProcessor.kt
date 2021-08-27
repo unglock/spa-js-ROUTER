@@ -14,4 +14,5 @@ class StreamProcessor(properties: StreamProperties, private val predictor: Predi
         val processor = StreamsBuilder()
 
         processor
-    
+            .stream(
+        
