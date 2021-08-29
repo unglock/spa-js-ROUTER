@@ -18,4 +18,5 @@ class StreamProcessor(properties: StreamProperties, private val predictor: Predi
                 "machine-measurement",
                 Consumed.with(Serdes.String(), FishSerde())
             )
-            .filter { 
+            .filter { _, value -> value != null }
+            .ma
