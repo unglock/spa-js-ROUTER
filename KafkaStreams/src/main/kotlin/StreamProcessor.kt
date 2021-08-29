@@ -16,4 +16,4 @@ class StreamProcessor(properties: StreamProperties, private val predictor: Predi
         processor
             .stream(
                 "machine-measurement",
-  
+                Consumed.with(Serdes.St
