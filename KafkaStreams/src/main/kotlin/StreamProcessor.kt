@@ -17,4 +17,5 @@ class StreamProcessor(properties: StreamProperties, private val predictor: Predi
             .stream(
                 "machine-measurement",
                 Consumed.with(Serdes.String(), FishSerde())
-        
+            )
+            .filter { 
