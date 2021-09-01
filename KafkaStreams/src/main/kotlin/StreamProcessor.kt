@@ -19,4 +19,6 @@ class StreamProcessor(properties: StreamProperties, private val predictor: Predi
                 Consumed.with(Serdes.String(), FishSerde())
             )
             .filter { _, value -> value != null }
-            .mapValues { value -> predictor.requestWeight(value
+            .mapValues { value -> predictor.requestWeight(value) }
+            .to(
+           
