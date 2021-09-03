@@ -21,4 +21,5 @@ class StreamProcessor(properties: StreamProperties, private val predictor: Predi
             .filter { _, value -> value != null }
             .mapValues { value -> predictor.requestWeight(value) }
             .to(
-                "weight-predictio
+                "weight-prediction",
+                Produced.w
