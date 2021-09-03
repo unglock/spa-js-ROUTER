@@ -22,4 +22,5 @@ class StreamProcessor(properties: StreamProperties, private val predictor: Predi
             .mapValues { value -> predictor.requestWeight(value) }
             .to(
                 "weight-prediction",
-                Produced.w
+                Produced.with(Serdes.String(), FishSerde())
+   
