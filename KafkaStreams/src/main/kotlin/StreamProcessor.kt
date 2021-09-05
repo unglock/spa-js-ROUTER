@@ -23,4 +23,6 @@ class StreamProcessor(properties: StreamProperties, private val predictor: Predi
             .to(
                 "weight-prediction",
                 Produced.with(Serdes.String(), FishSerde())
-   
+            )
+
+        return processor.b
