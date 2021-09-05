@@ -25,4 +25,6 @@ class StreamProcessor(properties: StreamProperties, private val predictor: Predi
                 Produced.with(Serdes.String(), FishSerde())
             )
 
-        return processor.b
+        return processor.build()
+    }
+}
