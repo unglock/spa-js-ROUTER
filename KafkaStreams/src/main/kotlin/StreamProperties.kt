@@ -3,4 +3,4 @@ import java.util.*
 
 class StreamProperties {
 
-    fun configureProper
+    fun configureProperties(): Properties 
