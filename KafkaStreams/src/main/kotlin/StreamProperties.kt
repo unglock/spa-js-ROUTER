@@ -1,4 +1,6 @@
 import org.apache.kafka.streams.StreamsConfig
 import java.util.*
 
-class Stre
+class StreamProperties {
+
+    fun configureProper
