@@ -3,4 +3,6 @@ import java.util.*
 
 class StreamProperties {
 
-    fun configureProperties(): Properties 
+    fun configureProperties(): Properties {
+
+        val settings
