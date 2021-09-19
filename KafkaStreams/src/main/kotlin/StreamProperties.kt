@@ -5,4 +5,5 @@ class StreamProperties {
 
     fun configureProperties(): Properties {
 
-        val settings
+        val settings = Properties()
+        
