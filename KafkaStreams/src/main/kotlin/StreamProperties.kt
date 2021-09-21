@@ -6,4 +6,4 @@ class StreamProperties {
     fun configureProperties(): Properties {
 
         val settings = Properties()
-        settings.setProperty(StreamsCo
+        settings.setProperty(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, "broker:
