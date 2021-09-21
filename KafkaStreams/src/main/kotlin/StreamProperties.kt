@@ -7,4 +7,5 @@ class StreamProperties {
 
         val settings = Properties()
         settings.setProperty(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, "broker:29092")
-        settings.setProperty(StreamsConfig.APPLICATION_
+        settings.setProperty(StreamsConfig.APPLICATION_ID_CONFIG, "streamsId")
+  
