@@ -8,4 +8,4 @@ class StreamProperties {
         val settings = Properties()
         settings.setProperty(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, "broker:29092")
         settings.setProperty(StreamsConfig.APPLICATION_ID_CONFIG, "streamsId")
-        settings.setProperty("MODEL_URL
+        settings.setProperty("MODEL_URL", "http://rstudio:8000/prediction")
