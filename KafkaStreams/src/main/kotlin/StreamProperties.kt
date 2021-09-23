@@ -11,4 +11,5 @@ class StreamProperties {
         settings.setProperty("MODEL_URL", "http://rstudio:8000/prediction")
 
         return settings
-   
+    }
+}
