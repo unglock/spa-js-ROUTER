@@ -1,1 +1,3 @@
-import org.apache.logging.lo
+import org.apache.logging.log4j.kotlin.logger
+
+fun main
