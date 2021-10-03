@@ -4,4 +4,5 @@ fun main() {
 
     val logger = logger("Kafka Streams")
 
-    val streamPr
+    val streamProperties = StreamProperties()
+    va
