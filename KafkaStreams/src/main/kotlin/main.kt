@@ -5,4 +5,5 @@ fun main() {
     val logger = logger("Kafka Streams")
 
     val streamProperties = StreamProperties()
-    val predictor = Predictor(stre
+    val predictor = Predictor(streamProperties.configureProperties())
+    val
