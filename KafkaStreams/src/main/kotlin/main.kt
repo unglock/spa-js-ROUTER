@@ -6,4 +6,4 @@ fun main() {
 
     val streamProperties = StreamProperties()
     val predictor = Predictor(streamProperties.configureProperties())
-    val streamProcessor = Stream
+    val streamProcessor = StreamProcessor(streamProperties, pre
