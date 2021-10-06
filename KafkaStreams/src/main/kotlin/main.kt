@@ -8,4 +8,5 @@ fun main() {
     val predictor = Predictor(streamProperties.configureProperties())
     val streamProcessor = StreamProcessor(streamProperties, predictor)
     streamProcessor.streams.start()
-    
+    logger.info("Processor started")
+}
