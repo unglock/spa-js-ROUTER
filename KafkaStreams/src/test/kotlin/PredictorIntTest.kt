@@ -3,4 +3,4 @@ import io.kotest.matchers.shouldBe
 import io.kotest.matchers.shouldNotBe
 import java.util.*
 
-class P
+class PredictorIntTest: StringSpec(
