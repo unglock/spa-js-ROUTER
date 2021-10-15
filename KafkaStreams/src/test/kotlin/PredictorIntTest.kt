@@ -9,4 +9,6 @@ class PredictorIntTest: StringSpec() {
 
         "Integration works correctly" {
 
-            // first run docker-compose file in KafkaStreams/src/test
+            // first run docker-compose file in KafkaStreams/src/test/resources
+
+          
