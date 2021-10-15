@@ -9,4 +9,4 @@ class PredictorIntTest: StringSpec() {
 
         "Integration works correctly" {
 
-            // fir
+            // first run docker-compose f
