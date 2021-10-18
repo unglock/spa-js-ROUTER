@@ -11,4 +11,5 @@ class PredictorIntTest: StringSpec() {
 
             // first run docker-compose file in KafkaStreams/src/test/resources
 
-            val properties =  Properties
+            val properties =  Properties()
+            properties.s
