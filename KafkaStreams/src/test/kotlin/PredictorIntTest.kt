@@ -12,4 +12,6 @@ class PredictorIntTest: StringSpec() {
             // first run docker-compose file in KafkaStreams/src/test/resources
 
             val properties =  Properties()
-            properties.setProperty("MODEL_URL", "http://l
+            properties.setProperty("MODEL_URL", "http://localhost:8000/prediction")
+
+      
