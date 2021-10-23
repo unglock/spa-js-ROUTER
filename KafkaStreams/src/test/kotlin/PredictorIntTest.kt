@@ -14,4 +14,6 @@ class PredictorIntTest: StringSpec() {
             val properties =  Properties()
             properties.setProperty("MODEL_URL", "http://localhost:8000/prediction")
 
-            val predictor = Predictor(pr
+            val predictor = Predictor(properties)
+
+            val 
