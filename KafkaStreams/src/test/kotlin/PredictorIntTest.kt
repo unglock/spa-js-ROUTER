@@ -16,4 +16,4 @@ class PredictorIntTest: StringSpec() {
 
             val predictor = Predictor(properties)
 
-            val 
+            val request = Fish("id", "sal
