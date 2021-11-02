@@ -20,4 +20,4 @@ class PredictorIntTest: StringSpec() {
             val response = predictor.requestWeight(request)
 
             response.Length shouldBe request.Length
-            re
+            response.Height shouldBe request.
