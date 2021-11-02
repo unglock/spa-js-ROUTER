@@ -21,4 +21,5 @@ class PredictorIntTest: StringSpec() {
 
             response.Length shouldBe request.Length
             response.Height shouldBe request.Height
-            response.Sp
+            response.Species shouldBe request.Species
+   
