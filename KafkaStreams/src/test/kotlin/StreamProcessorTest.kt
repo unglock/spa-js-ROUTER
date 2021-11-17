@@ -3,4 +3,5 @@ import io.kotest.matchers.shouldBe
 import io.mockk.every
 import io.mockk.mockkClass
 import org.apache.kafka.common.serialization.StringDeserializer
-import org.apache.kafka.common.serializ
+import org.apache.kafka.common.serialization.StringSerializer
+import
