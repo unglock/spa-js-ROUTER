@@ -5,4 +5,5 @@ import io.mockk.mockkClass
 import org.apache.kafka.common.serialization.StringDeserializer
 import org.apache.kafka.common.serialization.StringSerializer
 import org.apache.kafka.streams.KeyValue
-import org.apache.kafka.st
+import org.apache.kafka.streams.StreamsConfig
+import
