@@ -9,4 +9,6 @@ import org.apache.kafka.streams.StreamsConfig
 import org.apache.kafka.streams.TopologyTestDriver
 import java.util.*
 
-class StreamProces
+class StreamProcessorTest : StringSpec() {
+
+  
