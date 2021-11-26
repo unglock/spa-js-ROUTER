@@ -11,4 +11,5 @@ import java.util.*
 
 class StreamProcessorTest : StringSpec() {
 
-    private val input = Fish("id", "s
+    private val input = Fish("id", "salmon", 1.0, 1.0, "today", null)
+   
