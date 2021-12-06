@@ -16,4 +16,6 @@ class StreamProcessorTest : StringSpec() {
 
     private val properties = Properties()
 
-    i
+    init {
+
+        "Stream Processor w
