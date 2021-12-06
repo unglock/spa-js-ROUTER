@@ -18,4 +18,6 @@ class StreamProcessorTest : StringSpec() {
 
     init {
 
-        "Stream Processor w
+        "Stream Processor works correctly"{
+
+           
