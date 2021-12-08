@@ -20,4 +20,5 @@ class StreamProcessorTest : StringSpec() {
 
         "Stream Processor works correctly"{
 
-           
+            // Predictor Mock
+          
