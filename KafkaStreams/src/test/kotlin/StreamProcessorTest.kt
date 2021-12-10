@@ -21,4 +21,5 @@ class StreamProcessorTest : StringSpec() {
         "Stream Processor works correctly"{
 
             // Predictor Mock
-            val mockPredictor = mockkClass(Predicto
+            val mockPredictor = mockkClass(Predictor::class)
+        
