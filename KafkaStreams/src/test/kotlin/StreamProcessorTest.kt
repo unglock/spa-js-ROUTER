@@ -22,4 +22,6 @@ class StreamProcessorTest : StringSpec() {
 
             // Predictor Mock
             val mockPredictor = mockkClass(Predictor::class)
-            every { mockPredictor.requestWeight(any()) } returns expe
+            every { mockPredictor.requestWeight(any()) } returns expectedOutput
+
+            //
