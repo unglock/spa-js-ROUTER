@@ -25,4 +25,4 @@ class StreamProcessorTest : StringSpec() {
             every { mockPredictor.requestWeight(any()) } returns expectedOutput
 
             // Properties Mock
-            properties.setProperty(Str
+            properties.setProperty(StreamsConfig.BOOTSTRAP_SERVERS_
