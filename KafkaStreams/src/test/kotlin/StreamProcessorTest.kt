@@ -25,4 +25,4 @@ class StreamProcessorTest : StringSpec() {
             every { mockPredictor.requestWeight(any()) } returns expectedOutput
 
             // Properties Mock
-            p
+            properties.setProperty(Str
