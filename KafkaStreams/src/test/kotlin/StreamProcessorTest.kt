@@ -26,4 +26,4 @@ class StreamProcessorTest : StringSpec() {
 
             // Properties Mock
             properties.setProperty(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092")
-            properties.setProperty(StreamsConfig.A
+            properties.setProperty(StreamsConfig.APPLICATION_ID_CONFIG, "streamsId
