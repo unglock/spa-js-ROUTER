@@ -28,4 +28,5 @@ class StreamProcessorTest : StringSpec() {
             properties.setProperty(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092")
             properties.setProperty(StreamsConfig.APPLICATION_ID_CONFIG, "streamsId")
 
-            val mockProperties = mockkClass(Stream
+            val mockProperties = mockkClass(StreamProperties::class)
+           
