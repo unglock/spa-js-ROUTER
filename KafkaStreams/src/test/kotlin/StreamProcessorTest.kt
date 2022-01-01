@@ -29,4 +29,4 @@ class StreamProcessorTest : StringSpec() {
             properties.setProperty(StreamsConfig.APPLICATION_ID_CONFIG, "streamsId")
 
             val mockProperties = mockkClass(StreamProperties::class)
-            every { mockProperties.c
+            every { mockProperties.configureProperties() } returns pr
