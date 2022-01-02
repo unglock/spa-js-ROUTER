@@ -31,4 +31,5 @@ class StreamProcessorTest : StringSpec() {
             val mockProperties = mockkClass(StreamProperties::class)
             every { mockProperties.configureProperties() } returns properties
 
-            // Set 
+            // Set up Kafka Streams
+            val to
