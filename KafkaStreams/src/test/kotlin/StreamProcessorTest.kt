@@ -32,4 +32,4 @@ class StreamProcessorTest : StringSpec() {
             every { mockProperties.configureProperties() } returns properties
 
             // Set up Kafka Streams
-            val to
+            val topology = StreamProcessor(moc
