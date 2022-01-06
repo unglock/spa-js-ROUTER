@@ -35,4 +35,5 @@ class StreamProcessorTest : StringSpec() {
             val topology = StreamProcessor(mockProperties, mockPredictor).createTopology()
             val testDriver = TopologyTestDriver(topology, mockProperties.configureProperties())
 
-            // Pipe into
+            // Pipe into topology
+            va
