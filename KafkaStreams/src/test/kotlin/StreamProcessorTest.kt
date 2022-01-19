@@ -37,4 +37,6 @@ class StreamProcessorTest : StringSpec() {
 
             // Pipe into topology
             val inputTopic =
-                testDriver.createInputTopic("machine-measurement", StringSerializer(), FishSerde()
+                testDriver.createInputTopic("machine-measurement", StringSerializer(), FishSerde())
+
+            inputTopic.pipeIn
