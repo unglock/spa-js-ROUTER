@@ -39,4 +39,6 @@ class StreamProcessorTest : StringSpec() {
             val inputTopic =
                 testDriver.createInputTopic("machine-measurement", StringSerializer(), FishSerde())
 
-            inputTopic.pipeIn
+            inputTopic.pipeInput("testId", input)
+
+           
