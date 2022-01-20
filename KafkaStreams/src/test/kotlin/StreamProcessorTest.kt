@@ -41,4 +41,5 @@ class StreamProcessorTest : StringSpec() {
 
             inputTopic.pipeInput("testId", input)
 
-            // Consume output t
+            // Consume output topic
+            val output =
