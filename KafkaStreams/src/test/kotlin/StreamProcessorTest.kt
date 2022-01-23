@@ -43,4 +43,4 @@ class StreamProcessorTest : StringSpec() {
 
             // Consume output topic
             val output =
-                testDriver.createOutputTopic("weight-
+                testDriver.createOutputTopic("weight-prediction", StringDeserializer(),
