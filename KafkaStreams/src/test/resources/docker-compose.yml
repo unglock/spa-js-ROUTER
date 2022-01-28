@@ -1,0 +1,7 @@
+
+version: '2'
+services:
+
+  model:
+    image: model:0.1.0
+    container_name: model

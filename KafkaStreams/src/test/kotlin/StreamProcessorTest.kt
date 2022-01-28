@@ -47,4 +47,7 @@ class StreamProcessorTest : StringSpec() {
 
             // Test
             output.readKeyValue() shouldBe KeyValue("testId", expectedOutput)
-            testDrive
+            testDriver.close()
+        }
+    }
+}
