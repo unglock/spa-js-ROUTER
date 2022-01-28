@@ -46,4 +46,5 @@ class StreamProcessorTest : StringSpec() {
                 testDriver.createOutputTopic("weight-prediction", StringDeserializer(), FishSerde())
 
             // Test
-            output.readKeyValue() shouldBe KeyValue("testId", expectedOut
+            output.readKeyValue() shouldBe KeyValue("testId", expectedOutput)
+            testDrive
