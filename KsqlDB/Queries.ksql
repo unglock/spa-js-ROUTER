@@ -3,3 +3,5 @@ CREATE STREAM PREDICTED_WEIGHT(
 	"Species" VARCHAR,
 	"Height" DOUBLE,
 	"Length" DOUBLE,
+	"Timestamp" VARCHAR,
+	"Predicti
