@@ -1,4 +1,5 @@
 CREATE STREAM PREDICTED_WEIGHT(
 	"Fish_Id" VARCHAR KEY,
 	"Species" VARCHAR,
-	"Heig
+	"Height" DOUBLE,
+	"Length" DOUBLE,
