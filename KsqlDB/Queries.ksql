@@ -4,4 +4,6 @@ CREATE STREAM PREDICTED_WEIGHT(
 	"Height" DOUBLE,
 	"Length" DOUBLE,
 	"Timestamp" VARCHAR,
-	"Prediction" STRUCT<"Weight" DOUBLE, "Mode
+	"Prediction" STRUCT<"Weight" DOUBLE, "ModelTime" VARCHAR>
+	)
+WITH(
