@@ -6,4 +6,4 @@ CREATE STREAM PREDICTED_WEIGHT(
 	"Timestamp" VARCHAR,
 	"Prediction" STRUCT<"Weight" DOUBLE, "ModelTime" VARCHAR>
 	)
-WITH(
+WITH(KAFKA_TOPIC = 'weight-prediction', V
