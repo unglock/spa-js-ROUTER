@@ -11,4 +11,5 @@ WITH(KAFKA_TOPIC = 'weight-prediction', VALUE_FORMAT = 'JSON');
 
 CREATE STREAM ACTUAL_WEIGHT(
 	"Fish_Id" VARCHAR KEY,
-	"
+	"Species" VARCHAR,
+	"Weight"
