@@ -13,4 +13,6 @@ CREATE STREAM ACTUAL_WEIGHT(
 	"Fish_Id" VARCHAR KEY,
 	"Species" VARCHAR,
 	"Weight" DOUBLE,
-	"Timestamp" VARCH
+	"Timestamp" VARCHAR
+	)
+WITH(KAFKA_TOPIC = 'machi
