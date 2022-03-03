@@ -15,4 +15,4 @@ CREATE STREAM ACTUAL_WEIGHT(
 	"Weight" DOUBLE,
 	"Timestamp" VARCHAR
 	)
-WITH(KAFKA_TOPIC = 'machi
+WITH(KAFKA_TOPIC = 'machine-weight', VALUE_FORM
