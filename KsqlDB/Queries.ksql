@@ -20,4 +20,6 @@ WITH(KAFKA_TOPIC = 'machine-weight', VALUE_FORMAT = 'JSON');
 
 CREATE STREAM DIFF_WEIGHT
 WITH(KAFKA_TOPIC = 'weight-diff', VALUE_FORMAT = 'JSON')
-AS S
+AS SELECT
+    'Key' AS "Key",
+    P
