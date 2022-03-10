@@ -25,4 +25,5 @@ AS SELECT
     PREDICTED_WEIGHT."Fish_Id" AS "Fish_Id",
     PREDICTED_WEIGHT."Species" AS "Species",
     PREDICTED_WEIGHT."Length" AS "Length",
-    PREDICTED_WEIGHT."Height" A
+    PREDICTED_WEIGHT."Height" AS "Height",
+    PREDICTED_WEIGHT.
