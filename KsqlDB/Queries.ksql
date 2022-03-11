@@ -26,4 +26,4 @@ AS SELECT
     PREDICTED_WEIGHT."Species" AS "Species",
     PREDICTED_WEIGHT."Length" AS "Length",
     PREDICTED_WEIGHT."Height" AS "Height",
-    PREDICTED_WEIGHT.
+    PREDICTED_WEIGHT."Prediction"->"Weight" AS "Pr
