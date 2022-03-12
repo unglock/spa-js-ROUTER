@@ -27,4 +27,4 @@ AS SELECT
     PREDICTED_WEIGHT."Length" AS "Length",
     PREDICTED_WEIGHT."Height" AS "Height",
     PREDICTED_WEIGHT."Prediction"->"Weight" AS "PredictedWeight",
-    ACTUAL
+    ACTUAL_WEIGHT."Weight" AS "ActualWeight"
