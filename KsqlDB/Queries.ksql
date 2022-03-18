@@ -30,4 +30,5 @@ AS SELECT
     ACTUAL_WEIGHT."Weight" AS "ActualWeight",
     ROUND(ABS(PREDICTED_WEIGHT."Prediction"->"Weight" - ACTUAL_WEIGHT."Weight") / ACTUAL_WEIGHT."Weight", 3) AS "Error",
     PREDICTED_WEIGHT."Prediction"->"ModelTime" AS "ModelTime",
-    ACTUAL_WEIGHT."Timestamp
+    ACTUAL_WEIGHT."Timestamp" AS "Timestamp"
+FROM PREDICTED
