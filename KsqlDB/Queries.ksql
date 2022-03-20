@@ -37,4 +37,5 @@ WITHIN 1 MINUTE
 ON PREDICTED_WEIGHT."Fish_Id" = ACTUAL_WEIGHT."Fish_Id";
 
 
-set 'ksql.suppress.en
+set 'ksql.suppress.enabled'='true';
+CREATE TABLE 
