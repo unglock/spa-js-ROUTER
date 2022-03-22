@@ -38,4 +38,5 @@ ON PREDICTED_WEIGHT."Fish_Id" = ACTUAL_WEIGHT."Fish_Id";
 
 
 set 'ksql.suppress.enabled'='true';
-CREATE TABLE 
+CREATE TABLE RETRAIN_WEIGHT
+WITH(KAFKA_TOPI
