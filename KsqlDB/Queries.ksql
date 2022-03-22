@@ -42,3 +42,4 @@ CREATE TABLE RETRAIN_WEIGHT
 WITH(KAFKA_TOPIC = 'weight-retrain', VALUE_FORMAT = 'JSON')
 AS SELECT
     "Key",
+    COLLECT_SET("Species") AS 
