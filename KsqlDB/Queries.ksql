@@ -43,4 +43,4 @@ WITH(KAFKA_TOPIC = 'weight-retrain', VALUE_FORMAT = 'JSON')
 AS SELECT
     "Key",
     COLLECT_SET("Species") AS "Species",
-    EARLI
+    EARLIEST_BY_OFFSET("Fish_Id") AS "Fish
