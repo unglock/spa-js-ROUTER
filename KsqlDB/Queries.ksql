@@ -45,4 +45,5 @@ AS SELECT
     COLLECT_SET("Species") AS "Species",
     EARLIEST_BY_OFFSET("Fish_Id") AS "Fish_Id_Start",
     LATEST_BY_OFFSET("Fish_Id") AS "Fish_Id_End",
-    AVG("
+    AVG("Error") AS "ErrorAvg"
+ 
