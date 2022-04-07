@@ -48,3 +48,5 @@ AS SELECT
     AVG("Error") AS "ErrorAvg"
     FROM DIFF_WEIGHT
     WINDOW TUMBLING (SIZE 1 MINUTE)
+    GROUP BY "Key"
+    HAVI
