@@ -50,4 +50,4 @@ AS SELECT
     WINDOW TUMBLING (SIZE 1 MINUTE)
     GROUP BY "Key"
     HAVING AVG("Error") > 0.15
-    
+    EMIT FINAL;
