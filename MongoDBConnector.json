@@ -2,4 +2,4 @@
   "name": "WeightData",
   "config": {
     "name": "WeightData",
-    "connect
+    "connector.class": "com.mongodb.kafka.conn
