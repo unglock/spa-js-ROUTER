@@ -3,4 +3,4 @@
   "config": {
     "name": "WeightData",
     "connector.class": "com.mongodb.kafka.connect.MongoSinkConnector",
- 
+    "key.converter": "org.apach
