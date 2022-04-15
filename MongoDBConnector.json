@@ -4,4 +4,5 @@
     "name": "WeightData",
     "connector.class": "com.mongodb.kafka.connect.MongoSinkConnector",
     "key.converter": "org.apache.kafka.connect.storage.StringConverter",
-    "key.conve
+    "key.converter.schemas.enable": "false",
+ 
