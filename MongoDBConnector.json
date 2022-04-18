@@ -7,4 +7,5 @@
     "key.converter.schemas.enable": "false",
     "value.converter": "org.apache.kafka.connect.json.JsonConverter",
     "value.converter.schemas.enable": "false",
-    "topics": "weight-di
+    "topics": "weight-diff",
+    "consumer.override.auto.offset.reset
