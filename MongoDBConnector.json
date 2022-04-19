@@ -8,4 +8,5 @@
     "value.converter": "org.apache.kafka.connect.json.JsonConverter",
     "value.converter.schemas.enable": "false",
     "topics": "weight-diff",
-    "consumer.override.auto.offset.reset
+    "consumer.override.auto.offset.reset": "earliest",
+    "connection.uri"
