@@ -9,4 +9,5 @@
     "value.converter.schemas.enable": "false",
     "topics": "weight-diff",
     "consumer.override.auto.offset.reset": "earliest",
-    "connection.uri": "mongodb://user:password@mongo:270
+    "connection.uri": "mongodb://user:password@mongo:27017/admin",
+    "databas
