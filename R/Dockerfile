@@ -1,1 +1,1 @@
-# 
+# Base image, see https://hub.dock
