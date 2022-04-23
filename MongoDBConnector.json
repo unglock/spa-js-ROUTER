@@ -11,4 +11,6 @@
     "consumer.override.auto.offset.reset": "earliest",
     "connection.uri": "mongodb://user:password@mongo:27017/admin",
     "database": "Weight",
-    "colle
+    "collection": "TrainingData"
+  }
+}
