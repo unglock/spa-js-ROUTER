@@ -2,4 +2,5 @@
 FROM rocker/rstudio:4.0.3
 
 # Install Plumber
-RUN apt-get -y update && apt
+RUN apt-get -y update && apt-get install -y \
+   r-cran-r
