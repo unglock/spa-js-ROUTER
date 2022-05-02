@@ -3,4 +3,6 @@ FROM rocker/rstudio:4.0.3
 
 # Install Plumber
 RUN apt-get -y update && apt-get install -y \
-   r-cran-r
+   r-cran-rjava \
+   && apt-get clean \
+   && rm 
