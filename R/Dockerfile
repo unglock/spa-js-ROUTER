@@ -7,4 +7,4 @@ RUN apt-get -y update && apt-get install -y \
    && apt-get clean \
    && rm -rf /var/lib/apt/lists/
 
-RUN R -e "
+RUN R -e "install.packages(c('plumber', 'mong
