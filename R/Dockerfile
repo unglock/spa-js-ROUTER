@@ -5,4 +5,6 @@ FROM rocker/rstudio:4.0.3
 RUN apt-get -y update && apt-get install -y \
    r-cran-rjava \
    && apt-get clean \
-   && rm 
+   && rm -rf /var/lib/apt/lists/
+
+RUN R -e "
