@@ -9,4 +9,6 @@ RUN apt-get -y update && apt-get install -y \
 
 RUN R -e "install.packages(c('plumber', 'mongolite', 'dplyr'))"
 
-COPY ./Predicto
+COPY ./Predictor.R /home
+COPY ./main.R /home
+COPY ./model.RD
