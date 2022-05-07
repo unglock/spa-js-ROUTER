@@ -11,4 +11,7 @@ RUN R -e "install.packages(c('plumber', 'mongolite', 'dplyr'))"
 
 COPY ./Predictor.R /home
 COPY ./main.R /home
-COPY ./model.RD
+COPY ./model.RData /home
+
+
+# op
