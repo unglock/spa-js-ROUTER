@@ -14,4 +14,5 @@ COPY ./main.R /home
 COPY ./model.RData /home
 
 
-# op
+# open port 8000 to traffic
+EXPOSE 8000
