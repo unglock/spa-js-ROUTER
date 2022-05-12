@@ -16,3 +16,5 @@ COPY ./model.RData /home
 
 # open port 8000 to traffic
 EXPOSE 8000
+
+ENTRYPOINT ["Rscript", "/home/main.R
