@@ -36,3 +36,33 @@ train <- function(){
   library(mongolite)
   library(dplyr)
   
+  tryCatch({
+    connection <- mongo(collection = "TrainingData",
+                        db = "Weight",
+                        url = "mongodb://user:password@mongo:27017")
+    
+    dataAggr <- connection$aggregate('[
+                {"$sort": {"Timestamp": -1}},
+                {"$limit": 50}
+                                   ]')
+  
+    data <- dataAggr %>% select(length = Length, height = Height, weight = ActualWeight, species = Species)
+    
+    if(length(unique(data$species)) > 1){
+    
+      data$species <- as.factor(data$species)
+      lm <- lm(weight ~ length + height + species, data = data)
+      
+    } else {
+      
+      lm <- lm(weight ~ length + height , data = data)
+    }
+  
+    lm$time <- Sys.time()
+  
+    save(data = lm, file = "/home/model.RData")
+    message("New model saved")
+  },
+  error = function(cond){
+    message ("Retraining did not work")
+    }
