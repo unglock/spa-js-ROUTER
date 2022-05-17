@@ -1,0 +1,3 @@
+load("dataAnalyzed.RData")
+
+l

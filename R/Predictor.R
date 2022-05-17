@@ -66,3 +66,5 @@ train <- function(){
   error = function(cond){
     message ("Retraining did not work")
     }
+  )
+}
