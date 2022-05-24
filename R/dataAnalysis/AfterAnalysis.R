@@ -1,3 +1,5 @@
 load("dataAnalyzed.RData")
 
-l
+library(ggplot2)
+
+# Model trig
