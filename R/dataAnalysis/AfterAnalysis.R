@@ -5,4 +5,7 @@ library(ggplot2)
 # Model triggered
 # id: 44 to 73
 
-# Model app
+# Model applied
+# id : 77
+
+# because id != data index
