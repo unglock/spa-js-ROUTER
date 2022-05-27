@@ -9,3 +9,4 @@ library(ggplot2)
 # id : 77
 
 # because id != data index
+# we need to subtract every
