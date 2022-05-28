@@ -12,4 +12,4 @@ library(ggplot2)
 # we need to subtract every time 11
 
 ggplot() +
-  geom_rect(
+  geom_rect(aes(xmin = 33, xmax = 62, ymi
