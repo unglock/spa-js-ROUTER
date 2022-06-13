@@ -17,4 +17,5 @@ ggplot() +
   geom_rect(aes(xmin = 62, xmax = 66, ymin = -Inf, ymax = Inf), fill = "#C5832E", alpha = 0.7) +
   annotate("text", x = 64, y = 1.1, label = "Retraining", color = "#173361") +
   annotate("text", x = 45, y = 1.1, label = "Trigger", color = "#173361") +
-  annotate("text", x = 35, y = 1.2, label = "Retraining Data", color 
+  annotate("text", x = 35, y = 1.2, label = "Retraining Data", color = "#173361") +
+  geom_line(data = data, 
