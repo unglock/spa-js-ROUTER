@@ -20,4 +20,5 @@ ggplot() +
   annotate("text", x = 35, y = 1.2, label = "Retraining Data", color = "#173361") +
   geom_line(data = data, aes(x = seq(1, 169), y = Diff), color = "#173361") +
   geom_point(data = data, aes(x = 66, y = Diff[66]), color = "#173361") +
-  geom_hline(yintercept = 0.15, linetype = "dashed", color = "steelblu
+  geom_hline(yintercept = 0.15, linetype = "dashed", color = "steelblue") +
+  xlab("Events") + ylab("E
