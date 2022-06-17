@@ -22,4 +22,5 @@ ggplot() +
   geom_point(data = data, aes(x = 66, y = Diff[66]), color = "#173361") +
   geom_hline(yintercept = 0.15, linetype = "dashed", color = "steelblue") +
   xlab("Events") + ylab("Error") +
-  ggtitle("Model Behavio
+  ggtitle("Model Behaviour") +
+  theme(axis.title.
