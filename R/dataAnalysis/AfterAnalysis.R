@@ -23,4 +23,5 @@ ggplot() +
   geom_hline(yintercept = 0.15, linetype = "dashed", color = "steelblue") +
   xlab("Events") + ylab("Error") +
   ggtitle("Model Behaviour") +
-  theme(axis.title.x = element_text(colour = "#
+  theme(axis.title.x = element_text(colour = "#173361"),
+        axis.title
