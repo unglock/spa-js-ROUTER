@@ -24,4 +24,5 @@ ggplot() +
   xlab("Events") + ylab("Error") +
   ggtitle("Model Behaviour") +
   theme(axis.title.x = element_text(colour = "#173361"),
-        axis.title.y = element_text(colour = "#173361
+        axis.title.y = element_text(colour = "#173361"),
+        title = element
