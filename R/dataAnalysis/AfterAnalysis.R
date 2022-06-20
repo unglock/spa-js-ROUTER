@@ -28,4 +28,4 @@ ggplot() +
         title = element_text(color = "#173361")) +
   annotate(geom = "text", x = 160, y = 0.2, label = "Threshold 15 %",
            color = "steelblue") +
-  annotate(ge
+  annotate(geom = "text", x = 90, y = 0.5, 
