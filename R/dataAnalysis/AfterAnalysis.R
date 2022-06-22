@@ -30,4 +30,8 @@ ggplot() +
            color = "steelblue") +
   annotate(geom = "text", x = 90, y = 0.5, label = "New Model",
            color = "#173361") +
-  annotate("segment", x = 90, xend = 68, y = 0.45, yend = 0.05, colour = "#0074A2", size = 1, arr
+  annotate("segment", x = 90, xend = 68, y = 0.45, yend = 0.05, colour = "#0074A2", size = 1, arrow = arrow())
+
+
+ggplot() +
+  geom
