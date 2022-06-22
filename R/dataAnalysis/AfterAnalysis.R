@@ -34,4 +34,4 @@ ggplot() +
 
 
 ggplot() +
-  geom_rect(aes(xmin = 1, xmax = 49, 
+  geom_rect(aes(xmin = 1, xmax = 49, ymin = -Inf, ymax = Inf), fi
