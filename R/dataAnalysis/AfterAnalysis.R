@@ -30,4 +30,4 @@ ggplot() +
            color = "steelblue") +
   annotate(geom = "text", x = 90, y = 0.5, label = "New Model",
            color = "#173361") +
-  annotate("segme
+  annotate("segment", x = 90, xend = 68
