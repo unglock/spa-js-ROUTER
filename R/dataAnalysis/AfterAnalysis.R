@@ -29,4 +29,5 @@ ggplot() +
   annotate(geom = "text", x = 160, y = 0.2, label = "Threshold 15 %",
            color = "steelblue") +
   annotate(geom = "text", x = 90, y = 0.5, label = "New Model",
-           colo
+           color = "#173361") +
+  annotate("segme
