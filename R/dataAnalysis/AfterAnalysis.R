@@ -35,4 +35,4 @@ ggplot() +
 
 ggplot() +
   geom_rect(aes(xmin = 1, xmax = 49, ymin = -Inf, ymax = Inf), fill = "#00AFBA", alpha = 0.5) +
-  geom_rect(aes(xmin = 50, xm
+  geom_rect(aes(xmin = 50, xmax = 109, ymin = -Inf, ymax = Inf),
