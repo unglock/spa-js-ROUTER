@@ -39,4 +39,5 @@ ggplot() +
   geom_rect(aes(xmin = 110, xmax = 169, ymin = -Inf, ymax = Inf), fill = "#00AFBA", alpha = 0.5) +
   annotate("text", x = 24, y = 1.2, label = "Salmon", color = "#173361") +
   annotate("text", x = 78, y = 1.2, label = "Walleye", color = "#173361") +
-  annotate("text", x = 140, y = 1.2, label = "Salmon", color
+  annotate("text", x = 140, y = 1.2, label = "Salmon", color = "#173361") +
+  geom_line(
