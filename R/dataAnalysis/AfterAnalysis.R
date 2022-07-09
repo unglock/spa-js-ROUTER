@@ -40,4 +40,5 @@ ggplot() +
   annotate("text", x = 24, y = 1.2, label = "Salmon", color = "#173361") +
   annotate("text", x = 78, y = 1.2, label = "Walleye", color = "#173361") +
   annotate("text", x = 140, y = 1.2, label = "Salmon", color = "#173361") +
-  geom_line(data = data, aes(x = seq(1, 169), y
+  geom_line(data = data, aes(x = seq(1, 169), y = Diff), color = "#173361") +
+  geom_hline(
