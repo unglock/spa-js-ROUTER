@@ -45,4 +45,5 @@ ggplot() +
   xlab("Events") + ylab("Error") +
   ggtitle("Error Behaviour") +
   theme(axis.title.x = element_text(colour = "#173361"),
-        axis.title.y = element_text(c
+        axis.title.y = element_text(colour = "#173361"),
+     
