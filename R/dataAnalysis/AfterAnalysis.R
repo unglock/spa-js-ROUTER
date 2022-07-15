@@ -47,4 +47,4 @@ ggplot() +
   theme(axis.title.x = element_text(colour = "#173361"),
         axis.title.y = element_text(colour = "#173361"),
         title = element_text(color = "#173361")) +
-  annotate(geom = "text"
+  annotate(geom = "text", x = 160, y = 0.2, labe
