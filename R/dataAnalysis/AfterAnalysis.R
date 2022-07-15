@@ -46,4 +46,5 @@ ggplot() +
   ggtitle("Error Behaviour") +
   theme(axis.title.x = element_text(colour = "#173361"),
         axis.title.y = element_text(colour = "#173361"),
-        title = element_text(color = "#
+        title = element_text(color = "#173361")) +
+  annotate(geom = "text"
