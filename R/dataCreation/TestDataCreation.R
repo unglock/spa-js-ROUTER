@@ -5,3 +5,6 @@ library(readr)
 
 
 # Salmon first shift: 2 min
+set.seed(101)
+
+length <- 
