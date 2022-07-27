@@ -7,4 +7,5 @@ library(readr)
 # Salmon first shift: 2 min
 set.seed(101)
 
-length <- 
+length <- round(rnorm(60, 88, 5), 3)
+height <
