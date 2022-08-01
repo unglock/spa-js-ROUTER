@@ -19,4 +19,4 @@ data1 <- data.frame(species = "salmon", id = seq(1, 60), length = length, height
 set.seed(102)
 
 length <- round(rnorm(60, 81, 8), 3)
-heig
+height <- round(rnorm(60, 17, 2)
