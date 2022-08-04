@@ -20,4 +20,5 @@ set.seed(102)
 
 length <- round(rnorm(60, 81, 8), 3)
 height <- round(rnorm(60, 17, 2), 3)
-error <- round(rnorm(6
+error <- round(rnorm(60, 0, 0.1), 3)
+weight <- 0.02 * lengt
