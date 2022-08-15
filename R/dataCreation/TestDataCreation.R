@@ -26,4 +26,5 @@ weight <- 0.02 * length + 0.04 * height + error
 data2 <- data.frame(species = "walleye", id = seq(61, 120), length = length, height = height, weight = weight)
 
 
-# Salmon t
+# Salmon third shift : 2 min
+set.seed
