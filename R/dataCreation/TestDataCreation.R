@@ -27,4 +27,6 @@ data2 <- data.frame(species = "walleye", id = seq(61, 120), length = length, hei
 
 
 # Salmon third shift : 2 min
-set.seed
+set.seed(103)
+
+length <- round(rnorm
