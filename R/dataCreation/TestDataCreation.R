@@ -30,4 +30,5 @@ data2 <- data.frame(species = "walleye", id = seq(61, 120), length = length, hei
 set.seed(103)
 
 length <- round(rnorm(60, 88, 5), 3)
-height <- roun
+height <- round(rnorm(60, 19, 1), 3)
+error <- 
