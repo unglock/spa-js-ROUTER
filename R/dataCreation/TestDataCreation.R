@@ -38,4 +38,5 @@ data3 <- data.frame(species = "salmon", id = seq(121, 180), length = length, hei
 
 
 
-# All test dat
+# All test data
+data <- rbind(data1, data2, d
