@@ -43,3 +43,5 @@ data <- rbind(data1, data2, data3)
 data$id <- as.character(data$id)
 
 
+# Measurement
+meas
