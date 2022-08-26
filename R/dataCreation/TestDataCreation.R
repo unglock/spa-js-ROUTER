@@ -39,4 +39,7 @@ data3 <- data.frame(species = "salmon", id = seq(121, 180), length = length, hei
 
 
 # All test data
-data <- rbind(data1, data2, d
+data <- rbind(data1, data2, data3)
+data$id <- as.character(data$id)
+
+
