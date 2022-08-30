@@ -44,4 +44,4 @@ data$id <- as.character(data$id)
 
 
 # Measurement
-meas
+measurement <- apply(data, 1,
