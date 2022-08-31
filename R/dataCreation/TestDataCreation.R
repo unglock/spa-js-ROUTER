@@ -44,4 +44,4 @@ data$id <- as.character(data$id)
 
 
 # Measurement
-measurement <- apply(data, 1,
+measurement <- apply(data, 1, FUN = function
