@@ -44,4 +44,5 @@ data$id <- as.character(data$id)
 
 
 # Measurement
-measurement <- apply(data, 1, FUN = function
+measurement <- apply(data, 1, FUN = function(x){
+  return(paste('{"Species
