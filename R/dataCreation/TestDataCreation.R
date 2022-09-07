@@ -50,4 +50,4 @@ measurement <- apply(data, 1, FUN = function(x){
 }
 )
 library("readr")
-write(measureme
+write(measurement, file = "measurement
