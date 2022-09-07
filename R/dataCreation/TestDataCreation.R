@@ -50,4 +50,8 @@ measurement <- apply(data, 1, FUN = function(x){
 }
 )
 library("readr")
-write(measurement, file = "measurement
+write(measurement, file = "measurement.txt")
+
+
+# Weight 
+weight <- apply
