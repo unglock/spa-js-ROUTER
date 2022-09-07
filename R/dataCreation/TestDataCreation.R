@@ -47,3 +47,7 @@ data$id <- as.character(data$id)
 measurement <- apply(data, 1, FUN = function(x){
   return(paste('{"Species": "',x[1], '", "Fish_Id": "',x[2], '", "Length": ',x[3],', "Height": ',x[4],'}', 
                sep = ""))
+}
+)
+library("readr")
+write(measureme
