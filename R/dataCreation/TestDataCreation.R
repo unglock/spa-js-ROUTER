@@ -54,4 +54,4 @@ write(measurement, file = "measurement.txt")
 
 
 # Weight 
-weight <- apply
+weight <- apply(data, 1, FUN = function
