@@ -55,4 +55,4 @@ write(measurement, file = "measurement.txt")
 
 # Weight 
 weight <- apply(data, 1, FUN = function(x){
-  return(paste('{"Species": "',
+  return(paste('{"Species": "',x[1], '", "Fish_Id": "',x[2], '", 
