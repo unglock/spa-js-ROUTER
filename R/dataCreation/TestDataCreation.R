@@ -59,4 +59,5 @@ weight <- apply(data, 1, FUN = function(x){
                sep = ""))
 }
 )
-libr
+library("readr")
+write(weight, file = 
