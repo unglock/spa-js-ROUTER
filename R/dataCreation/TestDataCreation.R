@@ -60,4 +60,4 @@ weight <- apply(data, 1, FUN = function(x){
 }
 )
 library("readr")
-write(weight, file = 
+write(weight, file = "weight.txt")
