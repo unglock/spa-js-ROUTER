@@ -6,4 +6,4 @@ error <- round(rnorm(100, 0, 0.1), 3)
 
 weight <- 0.05 * length + 0.01 * height + error
 
-data <- data.frame(species = "salmon", id = seq(1, 
+data <- data.frame(species = "salmon", id = seq(1, 100), length = length, height = h
