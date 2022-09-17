@@ -8,4 +8,4 @@ weight <- 0.05 * length + 0.01 * height + error
 
 data <- data.frame(species = "salmon", id = seq(1, 100), length = length, height = height, weight = weight)
 
-save(data = data, file = "trai
+save(data = data, file = "trainingData.RData")
