@@ -1,4 +1,5 @@
 
 load("trainingData.RData")
 
-lm <- lm(weight 
+lm <- lm(weight ~ length + height , data = data)
+lm$t
