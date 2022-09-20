@@ -1,2 +1,4 @@
 
-load("t
+load("trainingData.RData")
+
+lm <- lm(weight 
