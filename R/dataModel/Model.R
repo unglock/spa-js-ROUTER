@@ -6,4 +6,4 @@ lm$time <- Sys.time()
 
 summary(lm)
 
-save(da
+save(data = lm, file = "model.RData")
