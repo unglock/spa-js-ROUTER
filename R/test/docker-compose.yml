@@ -1,1 +1,4 @@
-versio
+version: '2'
+services:
+
+  model
