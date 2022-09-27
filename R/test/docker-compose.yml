@@ -1,4 +1,6 @@
 version: '2'
 services:
 
-  model
+  model:
+    image: model:0.0.16
+    bui
