@@ -3,4 +3,6 @@ services:
 
   model:
     image: model:0.0.16
-    bui
+    build:
+      context: ../
+      do
