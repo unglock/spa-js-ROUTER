@@ -5,4 +5,5 @@ services:
     image: model:0.0.16
     build:
       context: ../
-      do
+      dockerfile: Dockerfile
+    c
