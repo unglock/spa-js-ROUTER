@@ -7,4 +7,8 @@ services:
       context: ../
       dockerfile: Dockerfile
     container_name: model
-    por
+    ports:
+      - 8000:8000
+
+  mongo:
+    im
