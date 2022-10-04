@@ -6,4 +6,5 @@ services:
     build:
       context: ../
       dockerfile: Dockerfile
-    c
+    container_name: model
+    por
