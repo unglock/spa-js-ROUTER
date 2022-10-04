@@ -11,4 +11,5 @@ services:
       - 8000:8000
 
   mongo:
-    im
+    image: mongo:4.4.5
+    hostname: 
