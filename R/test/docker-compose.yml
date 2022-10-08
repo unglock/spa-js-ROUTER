@@ -24,4 +24,6 @@ services:
     image: seed:0.0.6
     build:
       context: .
-      dockerfile: Mon
+      dockerfile: MongoDBDockerfile
+    links:
+  
