@@ -1,0 +1,12 @@
+
+[
+  {
+    "Length": 90.632,
+    "ActualWeight": 4.6587,
+    "Diff": 0.022,
+    "Height": 20.51,
+    "ModelTime": "2021-06-02 07:48:52",
+    "Species": "salmon",
+    "PredictedWeight": 4.7606,
+    "Timestamp": "2021-06-09T13:39:27.971Z",
+    "Key": "Key"
