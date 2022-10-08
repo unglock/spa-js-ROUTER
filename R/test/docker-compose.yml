@@ -23,4 +23,5 @@ services:
   mongo-seed:
     image: seed:0.0.6
     build:
- 
+      context: .
+      dockerfile: Mon
