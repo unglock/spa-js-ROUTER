@@ -13,4 +13,6 @@ services:
   mongo:
     image: mongo:4.4.5
     hostname: mongo
-    container_name:
+    container_name: mongo
+    ports:
+      - 27017:2
