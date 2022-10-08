@@ -21,4 +21,6 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: password
 
   mongo-seed:
-    
+    image: seed:0.0.6
+    build:
+ 
