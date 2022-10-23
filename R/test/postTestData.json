@@ -413,3 +413,30 @@
     "Diff": 0.026,
     "Height": 16.816,
     "ModelTime": "2021-06-02 07:48:52",
+    "Species": "salmon",
+    "PredictedWeight": 4.3749,
+    "Timestamp": "2021-06-09T13:40:42.156Z",
+    "Key": "Key"
+  },
+  {
+    "Length": 86.55,
+    "ActualWeight": 4.5128,
+    "Diff": 0.001,
+    "Height": 18.533,
+    "ModelTime": "2021-06-02 07:48:52",
+    "Species": "salmon",
+    "PredictedWeight": 4.5151,
+    "Timestamp": "2021-06-09T13:40:44.160Z",
+    "Key": "Key"
+  },
+  {
+    "Length": 80.581,
+    "ActualWeight": 4.0509,
+    "Diff": 0.052,
+    "Height": 20.686,
+    "ModelTime": "2021-06-02 07:48:52",
+    "Species": "salmon",
+    "PredictedWeight": 4.2634,
+    "Timestamp": "2021-06-09T13:40:46.163Z",
+    "Key": "Key"
+  },
