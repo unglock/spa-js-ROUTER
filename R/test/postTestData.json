@@ -729,3 +729,42 @@
   {
     "Length": 68.407,
     "ActualWeight": 1.8488,
+    "Diff": 0.899,
+    "Height": 13.867,
+    "ModelTime": "2021-06-02 07:48:52",
+    "Species": "walleye",
+    "PredictedWeight": 3.5115,
+    "Timestamp": "2021-06-09T13:41:40.265Z",
+    "Key": "Key"
+  },
+  {
+    "Length": 95.035,
+    "ActualWeight": 2.4956,
+    "Diff": 0.963,
+    "Height": 16.697,
+    "ModelTime": "2021-06-02 07:48:52",
+    "Species": "walleye",
+    "PredictedWeight": 4.8989,
+    "Timestamp": "2021-06-09T13:41:42.268Z",
+    "Key": "Key"
+  },
+  {
+    "Length": 67.574,
+    "ActualWeight": 2.0492,
+    "Diff": 0.723,
+    "Height": 16.719,
+    "ModelTime": "2021-06-02 07:48:52",
+    "Species": "walleye",
+    "PredictedWeight": 3.5307,
+    "Timestamp": "2021-06-09T13:41:44.272Z",
+    "Key": "Key"
+  },
+  {
+    "Length": 85.249,
+    "ActualWeight": 2.3385,
+    "Diff": 0.885,
+    "Height": 16.563,
+    "ModelTime": "2021-06-02 07:48:52",
+    "Species": "walleye",
+    "PredictedWeight": 4.4083,
+    "Timestamp": "2021-06-09T13:41:46.276Z",
