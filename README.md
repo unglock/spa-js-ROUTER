@@ -1,3 +1,5 @@
 # Kafka-R: Real-time Prediction
 
-[![LinkedIn][linkedin-shield]][l
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+This tutorial expl
