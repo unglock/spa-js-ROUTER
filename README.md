@@ -3,4 +3,4 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 This tutorial explains how a machine learning model is applied on real-time data.
-It predict
+It predicts incoming data as well as the model 
