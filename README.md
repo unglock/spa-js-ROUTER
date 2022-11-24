@@ -12,4 +12,4 @@ You can read more about it in my blog article:
 ## Prerequisites
 
 * [docker](https://docs.docker.com/get-docker/)
-* [docker-compos
+* [docker-compose](https://docs.docker.com/compose/instal
