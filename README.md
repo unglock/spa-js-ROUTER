@@ -12,4 +12,9 @@ You can read more about it in my blog article:
 ## Prerequisites
 
 * [docker](https://docs.docker.com/get-docker/)
-* [docker-compose](https://docs.docker.com/compose/instal
+* [docker-compose](https://docs.docker.com/compose/install/)
+
+## Data Flow
+
+![](image.png)
+
