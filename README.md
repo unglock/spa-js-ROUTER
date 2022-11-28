@@ -19,4 +19,4 @@ You can read more about it in my blog article:
 ![](image.png)
 
 ### Kafka Producer
-Let's 
+Let's go over the single parts of the data flow. A
