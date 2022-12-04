@@ -19,4 +19,5 @@ You can read more about it in my blog article:
 ![](image.png)
 
 ### Kafka Producer
-Let's go over the single parts of the data flow. A Kafka Producer produces simulated data of a fish's size measure
+Let's go over the single parts of the data flow. A Kafka Producer produces simulated data of a fish's size measurement
+as well as the weight con
