@@ -20,4 +20,6 @@ You can read more about it in my blog article:
 
 ### Kafka Producer
 Let's go over the single parts of the data flow. A Kafka Producer produces simulated data of a fish's size measurement
-as well as the weight continuously into two Kafka topics: `machine-weight` and `ma
+as well as the weight continuously into two Kafka topics: `machine-weight` and `machine-measurement`.
+
+### Kafka S
