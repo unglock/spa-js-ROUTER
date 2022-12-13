@@ -23,4 +23,5 @@ Let's go over the single parts of the data flow. A Kafka Producer produces simul
 as well as the weight continuously into two Kafka topics: `machine-weight` and `machine-measurement`.
 
 ### Kafka Streams
-A Kafka Streams application consumes the `machine-measurement` topic and communicate
+A Kafka Streams application consumes the `machine-measurement` topic and communicates via REST API with R
+to 
