@@ -24,4 +24,4 @@ as well as the weight continuously into two Kafka topics: `machine-weight` and `
 
 ### Kafka Streams
 A Kafka Streams application consumes the `machine-measurement` topic and communicates via REST API with R
-to predict the weight using lin
+to predict the weight using linear regression. You can find
