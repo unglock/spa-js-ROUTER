@@ -25,4 +25,4 @@ as well as the weight continuously into two Kafka topics: `machine-weight` and `
 ### Kafka Streams
 A Kafka Streams application consumes the `machine-measurement` topic and communicates via REST API with R
 to predict the weight using linear regression. You can find a unit test for the
-topology as well as an integration test for the REST communicatio
+topology as well as an integration test for the REST communication [here](KafkaStreams/src/test/
