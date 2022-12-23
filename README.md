@@ -28,4 +28,4 @@ to predict the weight using linear regression. You can find a unit test for the
 topology as well as an integration test for the REST communication [here](KafkaStreams/src/test/kotlin).
 
 ### ksqlDB
-In ksqlDB both streams are joined,
+In ksqlDB both streams are joined, and the prediction is comp
