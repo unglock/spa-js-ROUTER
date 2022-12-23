@@ -31,4 +31,4 @@ topology as well as an integration test for the REST communication [here](KafkaS
 In ksqlDB both streams are joined, and the prediction is compared with the actual weight (error).
 
 ### Kafka Connect
-One connector stores data in MongoDB so 
+One connector stores data in MongoDB so that it can be used for retrain
