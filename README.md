@@ -32,4 +32,7 @@ In ksqlDB both streams are joined, and the prediction is compared with the actua
 
 ### Kafka Connect
 One connector stores data in MongoDB so that it can be used for retraining the regression. 
-The other connector acts as a trigger to do the retraining once the error exceeds a 
+The other connector acts as a trigger to do the retraining once the error exceeds a threshold.
+
+### RStudio
+In R the m
