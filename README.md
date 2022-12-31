@@ -35,4 +35,4 @@ One connector stores data in MongoDB so that it can be used for retraining the r
 The other connector acts as a trigger to do the retraining once the error exceeds a threshold.
 
 ### RStudio
-In R the m
+In R the model itself, the prediction functio
