@@ -39,4 +39,6 @@ In R the model itself, the prediction function, and the retraining function are 
 You can find a test [here](R/test).
 
 
-## R
+## Run
+```
+docker-compose up -d
