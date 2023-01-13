@@ -36,4 +36,7 @@ The other connector acts as a trigger to do the retraining once the error exceed
 
 ### RStudio
 In R the model itself, the prediction function, and the retraining function are stored and accessible via REST API.
-You can
+You can find a test [here](R/test).
+
+
+## R
