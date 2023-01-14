@@ -48,4 +48,5 @@ It starts:
 * Zookeeper
 * Kafka Broker
 * Kafka Topics
-    * cre
+    * creates initial topics
+* Kafka Conn
