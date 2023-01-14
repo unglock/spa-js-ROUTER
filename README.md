@@ -42,3 +42,8 @@ You can find a test [here](R/test).
 ## Run
 ```
 docker-compose up -d
+```
+
+It starts:
+* Zookeeper
+*
