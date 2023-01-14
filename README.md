@@ -46,4 +46,6 @@ docker-compose up -d
 
 It starts:
 * Zookeeper
-*
+* Kafka Broker
+* Kafka Topics
+    * cre
