@@ -49,4 +49,5 @@ It starts:
 * Kafka Broker
 * Kafka Topics
     * creates initial topics
-* Kafka Conn
+* Kafka Connect
+    * with [Mo
