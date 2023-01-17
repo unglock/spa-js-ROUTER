@@ -50,4 +50,5 @@ It starts:
 * Kafka Topics
     * creates initial topics
 * Kafka Connect
-    * with [MongoDB Source and Sink Connector](https://www.confluent.io/hub/m
+    * with [MongoDB Source and Sink Connector](https://www.confluent.io/hub/mongodb/kafka-connect-mongodb)
+  
