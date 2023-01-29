@@ -51,4 +51,6 @@ It starts:
     * creates initial topics
 * Kafka Connect
     * with [MongoDB Source and Sink Connector](https://www.confluent.io/hub/mongodb/kafka-connect-mongodb)
-    * with [HTTP Sink Connector](https://www.confluent.io/hub/confluentinc/kafka-connect-htt
+    * with [HTTP Sink Connector](https://www.confluent.io/hub/confluentinc/kafka-connect-http)
+* ksqlDB Server
+* ksqlDB Clie
