@@ -53,4 +53,6 @@ It starts:
     * with [MongoDB Source and Sink Connector](https://www.confluent.io/hub/mongodb/kafka-connect-mongodb)
     * with [HTTP Sink Connector](https://www.confluent.io/hub/confluentinc/kafka-connect-http)
 * ksqlDB Server
-* ksqlDB Clie
+* ksqlDB Client 
+* MongoDB  
+* Kafka Producer
