@@ -56,3 +56,4 @@ It starts:
 * ksqlDB Client 
 * MongoDB  
 * Kafka Producer
+    * built docker image execut
