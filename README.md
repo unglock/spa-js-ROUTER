@@ -58,4 +58,4 @@ It starts:
 * Kafka Producer
     * built docker image executing fat JAR
 * Kafka Streams
-    * 
+    * built docker image execut
