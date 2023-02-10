@@ -60,4 +60,4 @@ It starts:
 * Kafka Streams
     * built docker image executing fat JAR
 * RStudio
-    * built docker image with RStudio with [plumber
+    * built docker image with RStudio with [plumber](https://cran.r-project.org/web/p
