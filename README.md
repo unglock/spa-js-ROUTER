@@ -62,4 +62,4 @@ It starts:
 * RStudio
     * built docker image with RStudio with [plumber](https://cran.r-project.org/web/packages/plumber/plumber.pdf), [dplyr](https://cran.r-project.org/web/packages/dplyr/dplyr.pdf), and [mongolite](https://cran.r-project.org/web/packages/mongolite/mongolite.pdf) installed and entrypoint
 
-Make sure to 
+Make sure to wait some time until every
