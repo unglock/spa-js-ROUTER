@@ -64,4 +64,5 @@ It starts:
 
 Make sure to wait some time until everything is fully started up.
 
-### Start
+### Start Connectors
+First, we start 
