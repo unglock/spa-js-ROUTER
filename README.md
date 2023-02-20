@@ -65,4 +65,6 @@ It starts:
 Make sure to wait some time until everything is fully started up.
 
 ### Start Connectors
-First, we start 
+First, we start the two Kafka Connectors:
+```
+curl -X POS
