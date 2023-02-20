@@ -67,4 +67,4 @@ Make sure to wait some time until everything is fully started up.
 ### Start Connectors
 First, we start the two Kafka Connectors:
 ```
-curl -X POST -H "Content-Type: applicati
+curl -X POST -H "Content-Type: application/json" --data @MongoDBConnector.jso
