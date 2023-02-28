@@ -71,4 +71,5 @@ curl -X POST -H "Content-Type: application/json" --data @MongoDBConnector.json h
 curl -X POST -H "Content-Type: application/json" --data @HTTPConnector.json http://localhost:8083/connectors | jq
 ```
 
-### Set up ksqlDB Qu
+### Set up ksqlDB Queries
+Use the client to access ksqlD
