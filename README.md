@@ -68,4 +68,7 @@ Make sure to wait some time until everything is fully started up.
 First, we start the two Kafka Connectors:
 ```
 curl -X POST -H "Content-Type: application/json" --data @MongoDBConnector.json http://localhost:8083/connectors | jq
-curl -X POST -H "Content-Type: application/json" --data @HTTPConnector.json http://localhost:8083/connectors 
+curl -X POST -H "Content-Type: application/json" --data @HTTPConnector.json http://localhost:8083/connectors | jq
+```
+
+### Set up ksqlDB Qu
