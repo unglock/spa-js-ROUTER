@@ -75,3 +75,5 @@ curl -X POST -H "Content-Type: application/json" --data @HTTPConnector.json http
 Use the client to access ksqlDB:
 ```
 docker exec -it ksqldb-cli ksql http://ksqldb-server:8088
+```
+Run all queries stored in 
