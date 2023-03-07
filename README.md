@@ -76,4 +76,4 @@ Use the client to access ksqlDB:
 ```
 docker exec -it ksqldb-cli ksql http://ksqldb-server:8088
 ```
-Run all queries stored in 
+Run all queries stored in [Queries.ksql](KsqlDB/Queries.ksq
