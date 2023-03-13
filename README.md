@@ -79,4 +79,6 @@ docker exec -it ksqldb-cli ksql http://ksqldb-server:8088
 Run all queries stored in [Queries.ksql](KsqlDB/Queries.ksql).
 
 ### Inspect Data Pipeline
-To gain insights of the pipeline, we look at the Stream `DIFF_WEIGH
+To gain insights of the pipeline, we look at the Stream `DIFF_WEIGHT`:
+```
+SELECT * FROM DIFF_W
