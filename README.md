@@ -84,4 +84,6 @@ To gain insights of the pipeline, we look at the Stream `DIFF_WEIGHT`:
 SELECT * FROM DIFF_WEIGHT EMIT CHANGES;
 ```
 
-![](ksq
+![](ksqlDB.gif)
+
+We can also det
