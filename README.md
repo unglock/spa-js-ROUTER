@@ -86,4 +86,4 @@ SELECT * FROM DIFF_WEIGHT EMIT CHANGES;
 
 ![](ksqlDB.gif)
 
-We can also detect when the retrained model is 
+We can also detect when the retrained model is applied because the 
