@@ -87,4 +87,6 @@ SELECT * FROM DIFF_WEIGHT EMIT CHANGES;
 ![](ksqlDB.gif)
 
 We can also detect when the retrained model is applied because the prediction error
-decreases,
+decreases, and the model time changes.
+
+![
