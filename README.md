@@ -92,4 +92,4 @@ decreases, and the model time changes.
 ![](ksqlDB-retraining.png)
 
 
-In the KTable `RETRAIN_W
+In the KTable `RETRAIN_WEIGHT`, we see the events that tr
