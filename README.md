@@ -93,4 +93,5 @@ decreases, and the model time changes.
 
 
 In the KTable `RETRAIN_WEIGHT`, we see the events that trigger the retraining.
-``
+```
+SET 'auto.offset.reset'='ea
