@@ -98,3 +98,4 @@ SET 'auto.offset.reset'='earliest';
 SELECT * FROM RETRAIN_WEIGHT EMIT CHANGES;
 ```
 
+![](ksqlDB-trigger.png)
