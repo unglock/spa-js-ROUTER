@@ -95,4 +95,6 @@ decreases, and the model time changes.
 In the KTable `RETRAIN_WEIGHT`, we see the events that trigger the retraining.
 ```
 SET 'auto.offset.reset'='earliest';
-SELECT * FROM RETRAIN
+SELECT * FROM RETRAIN_WEIGHT EMIT CHANGES;
+```
+
