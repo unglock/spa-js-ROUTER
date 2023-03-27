@@ -102,4 +102,4 @@ SELECT * FROM RETRAIN_WEIGHT EMIT CHANGES;
 
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.c
+[linkedin-url]: https://www.linkedin.com/in/patrick-neff-7
