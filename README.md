@@ -101,4 +101,4 @@ SELECT * FROM RETRAIN_WEIGHT EMIT CHANGES;
 ![](ksqlDB-trigger.png)
 
 
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-blac
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=
