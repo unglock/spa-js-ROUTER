@@ -20,3 +20,40 @@ services:
       - zookeeper
     ports:
       - 9092:9092
+      - 9101:9101
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: EXTERNAL:PLAINTEXT,INTERNAL:PLAINTEXT
+      KAFKA_ADVERTISED_LISTENERS: EXTERNAL://broker:29092,INTERNAL://localhost:9092
+      KAFKA_INTER_BROKER_LISTENER_NAME: INTERNAL
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"
+
+  create-topics:
+    image: confluentinc/cp-enterprise-kafka:6.2.0
+    hostname: create-topics
+    container_name: create-topics
+    depends_on:
+      - broker
+    command:
+      - bash
+      - -c
+      - |
+        cub kafka-ready -b broker:29092 1 120 && \
+        kafka-topics --create --zookeeper zookeeper:2181 --partitions 1 --replication-factor 1 --topic weight-train
+        kafka-topics --create --zookeeper zookeeper:2181 --partitions 1 --replication-factor 1 --topic weight-diff
+    environment:
+      KAFKA_BROKER_ID: ignored
+      KAFKA_ZOOKEEPER_CONNECT: ignored
+
+  connect:
+    image: confluentinc/cp-kafka-connect-base:6.2.0
+    hostname: connect
+    container_name: connect
+    depends_on:
+      - broker
+    ports:
+      - 8083:8083
